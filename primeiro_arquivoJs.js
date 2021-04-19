@@ -24,3 +24,26 @@ switch(dia_semana){
         dia = '--'
 }
 console.log('Hoje é '+ dia);
+
+const ola = () =>{
+    console.log('Teste arrow functions');
+}
+
+ola();
+
+// const nomes = ['Cleiton', 'Vanessa', 'João Lucas'];
+
+const pessoas = [{
+    nome:'Cleiton',
+    idade: 38
+},{
+    nome:'Vanessa',
+    idade: 39
+},{
+    nome:'João Lucas',
+    idade: 6
+}];
+
+for(let i = 0; i < pessoas.length; i++){
+    console.log('O '+ pessoas[i].nome + ' possui '+ pessoas[i].idade +' anos.');
+}
